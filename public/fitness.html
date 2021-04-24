@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Signup Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="Cascading/flip.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="fitness.css">
+
+    <style>
+    </style>
+</head>
+
+<body>
+   <div class="title">
+      <p>FITNESS LEVEL(ENTER BETWEEN 1 TO 25)</p>   
+   </div>
+          
+            <form action="/health" method="POST">
+                <div class="maintainsize1">
+                <label for="quantity">PUSHUPS</label>
+                <input type="number" onblur="findTotal()"id="quantity" name="quantity" style="color:black"min="1" max="25">
+                </div>
+                <br>
+                <div class="maintainsize2">
+                <label for="quantity">LUNGES</label>
+                <input type="number" onblur="findTotal()"id="quantity" name="quantity" style="color:black"min="1" max="25">
+                </div>
+                <br>
+                <div class="maintainsize3">
+                <label for="quantity">SQUATS</label>
+                <input type="number" onblur="findTotal()"id="quantity" name="quantity"style="color:black" min="1" max="25">
+                </div>
+                <br>
+                <div class="maintainsize4">
+                <label for="quantity">DUMBBELL</label>
+                <input type="number"onblur="findTotal()" id="quantity" name="quantity" style="color:black"min="1" max="25">
+                </div>
+                <br>
+                <div class="maintainsize5">
+                <label for="quantity">SINGLE DEAD LIFT</label>
+                <input type="number"onblur="findTotal()" id="quantity" name="quantity"style="color:black" min="1" max="25">
+                </div>
+                <br>
+                <div class="maintainsize6"> 
+                <label for="quantity">BURPEES</label>
+                <input type="number" onblur="findTotal()"id="quantity" name="quantity"style="color:black" min="1" max="25">
+                </div>
+                <br>
+                <div class="maintainsize7">
+                <label for="quantity">SIDE PLANKS</label>
+                <input type="number"onblur="findTotal()" id="quantity" name="quantity"style="color:black" min="1" max="25">
+                <br>
+                </div>
+                <div class="maintainsize8">
+                <label for="quantity">PLANKS</label>
+                <input type="number" onblur="findTotal()"id="quantity" name="quantity"style="color:black" min="1" max="25">
+                </div>
+                <br>
+                <div class="maintainsize9">
+                <label for="quantity">GLUTE BRIDGE</label>
+                <input type="number"onblur="findTotal()" id="quantity" name="quantity"style="color:black" min="1" max="25">
+                <br>
+                </div>
+                <div class="maintainsize10">
+                <label for="quantity">BENT-OVER ROW</label>
+                <input type="number" onblur="findTotal()" id="quantity" name="quantity" style="color:black"min="1" max="25">
+                <br>
+                <br>
+                <br>
+                
+                <input type="submit" value="SUBMIT"class="btn btn-dark" name="Submit"  id="submit">
+                <input type="u" value="YOUR TOTAL"class="btn btn-dark" name="Total"  id="total">
+                </div>
+            </form>
+       
+            <div class="gauge">
+                <div class="gauge__body">
+                  <div class="gauge__fill"></div>
+                  <div class="gauge__cover"></div>
+                </div>
+              </div>
+
+    <script type="text/javascript">
+function findTotal(){
+    var arr = document.getElementsByName('quantity');
+    var tot=0;
+    for(var i=0;i<arr.length;i++){
+        if(parseInt(arr[i].value))
+            tot += parseInt(arr[i].value);
+    }
+    document.getElementById('total').value = tot;
+    return tot;
+    
+}
+
+    </script>
+        </body>  
+</html>

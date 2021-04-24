@@ -1,0 +1,224 @@
+
+body{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gyma.jpg');
+    background-size: 900px;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+
+.mid{
+    display: block;
+    width: 40%;
+    margin: 12px auto;
+    border: 2px white;
+    
+}
+.navbhar
+{
+    display: inline-block;
+}
+.navbhar li{
+    display:  inline-block;
+             }
+.navbhar li a {
+color:white;
+text-decoration: underline;
+display: inline;
+padding: 34px 23px;
+
+}
+.radio
+{
+    text-align: center;
+display: block;
+width: 468px;
+padding: 6px solid black;
+margin: 11px;
+font-size: 12px;
+border-radius: 8px;
+top:275;
+left: 60px;
+}
+
+.btn :hover
+{
+    background-color: silver;
+}
+.container
+{
+    margin: 4px 4px;
+    padding: 8px 20px;
+    widows: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+    top: 100px;
+
+}
+/*.formset input{
+text-align: center;
+display: block;
+width: 468px;
+padding: 6px solid black;
+margin: 11px;
+font-size: 25px;
+border-radius: 8px;
+left: 60px;
+
+}*/
+.button {
+    font-size: 5px;
+    display: block;
+    width:10 px;
+    background-color:white;
+    width: auto;
+    text-align: center;
+    
+  
+}
+
+/* Dropdown Button */
+.dropbtn {
+  
+  background-color:black;
+  border-color: white;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+}
+.unstyled-button {
+    border: none;
+    
+ 
+  
+
+  }
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin-top:40px;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 0px;
+  font-size: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%;
+  border-radius: 0px;
+  
+  padding:0px;
+  /*outline:no ;*/
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin:2px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display:block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:brown;}
+.content{
+    width:420px;
+    font-size: 20px;
+    color:white;
+}
+.content1{
+    width:420px;
+    height:500px;
+    font-size: 20px;
+    color:white;
+    margin-left:1060px ;
+    margin-top:-385px;
+}
+.content2{
+    width:420px;
+    font-size: 20px;
+    color:white;
+}
+.content3{
+    width:420px;
+    font-size: 20px;
+    color:white;
+    margin-left:1060px ;
+    margin-top:-500px;
+}
+
+
+.slider{
+    width:600px;
+    height:500px;
+    background:url(gym1.jpg);
+    margin:100px auto;
+    position:absolute;
+    background-size:cover;
+  margin-right:auto;
+  margin-left:420px;
+  margin-top:100px ;
+  animation:slide 35s infinite;
+  box-shadow: 5px 5px 6px 5px #888888;
+}
+@keyframes slide{
+    10%{
+        background:url(gym1.jpg);
+        background-size:cover;
+    }
+    20%{
+        background:url(gym2.jpg);
+        background-size:cover;
+    }
+    30%{
+        background:url(gym3.jpg);
+        background-size:cover;
+    }
+    40%{
+        background:url(gym4.jpg);
+        background-size:cover;
+    }
+    50%{
+        background:url(gym5.jpg);
+        background-size:cover;
+    }
+    60%{
+        background:url(gym6.jpg);
+        background-size:cover;
+    }
+    70%{
+        background:url(gym7.jpg);
+        background-size:cover;
+    }
+    85%{
+        background:url(gym8.jpg);
+        background-size:cover;
+    }
+    100%{
+        background:url(gym9.jpg);
+        background-size:cover;
+    }
+}

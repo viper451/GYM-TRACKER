@@ -1,0 +1,81 @@
+body{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gyma.jpg');
+    background-size: 900px;
+}
+.header{
+    font-size:40px;
+    
+    text-align:center;
+    position: relative;
+    background-color:darkred;
+
+}
+
+.checked {
+  color: orange;
+}
+.all{
+    margin:  20px;
+    margin-top: 100px;
+    font-size: 15px;
+  
+}
+.all1{
+
+   margin-left: 500px;
+  margin-top:-70px;
+    font-size: 15px;
+}
+.all2{
+ 
+    margin-left:  20px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.all3{
+    margin-left:  500px;
+    margin-top: -60px;
+    font-size: 15px;
+}
+
+.all4{
+    margin-left:  20px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.all5{
+    margin-left:  925px;
+    margin-top: -180px;
+    font-size: 15px;
+}
+.all6{
+    margin-left: 925px;
+    margin-top: -170px;
+    font-size: 15px;
+}
+.all7{
+    margin-left: 925px;
+    margin-top: 170px;
+    font-size: 15px;
+}
+.all8{
+    margin-left: 500px;
+    margin-top: -50px;
+    font-size: 15px;
+}
+.war{
+    margin-top: 100px;
+    text-decoration: underline;
+    text-align: center;
+    font-size:28px;
+}
+.describe{
+  margin-left:auto;
+  font-size:22px;
+  margin-top:  20px ;
+}

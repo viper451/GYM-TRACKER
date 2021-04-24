@@ -1,0 +1,18 @@
+body{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gyma.jpg');
+    background-size: 900px;
+}
+.yourself{
+    font-size:40px;
+    
+    text-align:center;
+    position: relative;
+   
+
+}
+.describe{
+font-size:30px;
+}
